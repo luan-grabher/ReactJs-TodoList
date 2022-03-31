@@ -1,4 +1,4 @@
-# Teste React
+# Teste React BDTI
 
 #### Crie, utilizando React com Redux, uma lista de tarefas (Todo), onde deverá ser possível:
 
