@@ -1,6 +1,6 @@
-# Teste React BDTI
+# Teste React BDTI - Todo List
 
-#### Crie, utilizando React com Redux, uma lista de tarefas (Todo), onde deverá ser possível:
+#### Aplicação utilizando React com Redux com uma lista de tarefas (Todo), onde é possível:
 
 - Listar Todas as Tarefas
 - Listar as tarefas ainda não concluídas
@@ -11,13 +11,12 @@
 - Excluir tarefa da lista
 - Exibir contadores: Total de tarefas, Tarefas concluídas e Não concluídas
 
-Obs[1]: As tarefas deverão ser armazenadas no LocalStorage do navegador
+Para armazenar as tarefas é utilizado o LocalStorage do navegador.
+Para controle do estado da aplicação é utilizado redux.
 
-Obs[2]: Utilizar redux para controlar o estado da aplicação
+Cada função utilizada possui comentários explicando seu funcionamento.
 
-Obs[3]: Aplicar comentários explicando cada função utilizada
-
-Obs[4]: Design/Layout livre
+Para Design/Layout é utilizado Bootstrap 4.   
 
 Pontos que serão avaliados:
 - Qualidade do Código
