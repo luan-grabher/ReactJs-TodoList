@@ -18,7 +18,7 @@ Cada função utilizada possui comentários explicando seu funcionamento.
 
 Para Design/Layout é utilizado Bootstrap 4.   
 
-Pontos que serão avaliados:
+Habilidades aplicadas:
 - Qualidade do Código
 - Design/Layout da aplicação
 - Componentização
