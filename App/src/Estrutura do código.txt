@@ -12,6 +12,8 @@ Pagina inicial:
     - Titulo 'Tarefas Concluidas' e abaixo:
         - Lista de Todas as Tarefas com status 'Concluido'
             - Para cada tarefa mostra checkbox redondo preenchido, ao seu lado um input com a descrição, por ultimo um icone de lixo vermelho com titulo 'Remover'
+    - Titulo 'Total de Tarefas: ' + total de tarefas e abaixo:
+        - Pizza com o total de tarefas pendentes e concluidas
 
 Checkbox.click:
     - Quando o checkbox é clicado, altera o status da tarefa no state utilizando redux
