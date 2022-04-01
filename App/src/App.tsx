@@ -1,57 +1,38 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div className="alert alert-danger">Ok</div>
-        <Counter />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+        <div className='text-center mt-3'>         
+          <h1>
+              [icon]
+              Lista de Tarefas
+            </h1>
+        </div>        
+        {/* add tesk input */}
+        <div className='text-center mt-3'>
+          <input type='text' className='form-control col-8' placeholder='Adicionar Tarefa' />
+          <button className='btn btn-success col-2'>Adicionar</button>
+        </div>
+
+        <hr className="col-6 mx-auto" />
+
+        {/* list of tasks */}
+        <div className='text-center mt-3 container'>
+          {/* for each task display input editable, button to change status and button to delete*/}
+          <div className="col-8">
+            <div className="row d-flex w-100 justify-content-center">
+              <div className="col-10">
+                <div className="col-8">
+                  <input type='text' className='form-control' value="Descrição tarefa 1" />                
+                </div>
+                <button className='btn btn-success col-2' title='Concluir'>Concluir</button>
+                <button className='btn btn-danger col-2'>Excluir</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }
