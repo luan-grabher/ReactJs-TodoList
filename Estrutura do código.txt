@@ -1,0 +1,26 @@
+
+DB LocalStorage:
+    - Tarefas
+        - Descrição
+        - Status
+
+Pagina inicial:
+    - Input de texto com placeholder "Adicionar tarefa" e ao lado um botão com um ícone '+' verde com titulo 'Adicionar'
+    - Titulo 'Tarefas Para Fazer' e abaixo:
+        - Lista de Todas as Tarefas com status 'Pendente'
+            - Para cada tarefa mostra checkbox redondo vazio, ao seu lado um input com a descrição, por ultimo um icone de lixo vermelho com titulo 'Remover'
+    - Titulo 'Tarefas Concluidas' e abaixo:
+        - Lista de Todas as Tarefas com status 'Concluido'
+            - Para cada tarefa mostra checkbox redondo preenchido, ao seu lado um input com a descrição, por ultimo um icone de lixo vermelho com titulo 'Remover'
+    - Titulo 'Total de Tarefas: ' + total de tarefas e abaixo:
+        - Pizza com o total de tarefas pendentes e concluidas
+
+Checkbox.click:
+    - Quando o checkbox é clicado, altera o status da tarefa no state utilizando redux
+
+Lixeira.click:
+    - Quando o icone de lixo é clicado, remove a tarefa do state utilizando redux
+
+Store:
+    - Ao iniciar o app, busca todas as tarefas no localStorage, se não existir, cria um array vazio
+    - Quando alterar o state, salva no localStorage
