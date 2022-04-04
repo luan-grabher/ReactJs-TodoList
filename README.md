@@ -11,7 +11,7 @@
 - Excluir tarefa da lista
 - Exibir contadores: Total de tarefas, Tarefas concluídas e Não concluídas
 
-Para armazenar as tarefas é utilizado o LocalStorage do navegador.
+Para armazenar as tarefas é utilizado o LocalStorage do navegador. 
 Para controle do estado da aplicação é utilizado redux.
 
 Cada função utilizada possui comentários explicando seu funcionamento.
