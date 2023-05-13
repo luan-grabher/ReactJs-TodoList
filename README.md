@@ -1,6 +1,6 @@
-# Teste React BDTI - Todo List
+# ReactJs - Todo List
 
-#### Aplicação utilizando React com Redux com uma lista de tarefas (Todo), onde é possível:
+#### Aplicação utilizando React com Redux de uma lista de tarefas (Todo), onde é possível:
 
 - Listar Todas as Tarefas
 - Listar as tarefas ainda não concluídas
